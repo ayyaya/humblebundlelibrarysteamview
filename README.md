@@ -7,4 +7,4 @@ If you were just as annoyed as me, feel free to check it out!
 [HumbleBundleLibrarySteamView Firefox Addon](https://addons.mozilla.org/de/firefox/addon/humblebundlelibrarysteamview/)
 
 
-![That's what it looks like.](images/hblsv.PNG)
+![Overview of the modified Humble Bundle library page with the gallery view.](images/hblsv.PNG)
