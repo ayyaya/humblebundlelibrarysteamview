@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "HumbleLibrarySteamView",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Adds game information of Steam games in the Humble Bundle library.",
   "icons": {
     "48": "icons/border-48.png"

@@ -1,11 +1,9 @@
 let slideIndex = 1;
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -73,7 +71,7 @@ async function getSteamID(steamAppIDs, gameName) {
 
 async function manipulateDetailsWindow(gameName, steamID) {
   slideIndex = 1
-  console.log(`${gameName}, ${steamID}`)
+  // console.log(`${gameName}, ${steamID}`)
   const steamAppInfo = await fetchSteamAppInfo(steamID)
 
   if (steamAppInfo == -1 || !steamAppInfo[steamID]["success"]) {
