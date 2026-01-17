@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "HumbleLibrarySteamView",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Adds game information of Steam games in the Humble Bundle library.",
   "icons": {
     "48": "icons/border-48.png"
@@ -22,8 +22,9 @@
   "permissions": [
       "webRequest",
       "http://api.steampowered.com/",
+      "https://api.steampowered.com/",
       "https://store.steampowered.com/",
-      "https://cdn.akamai.steamstatic.com/",   
-      "http://cdn.akamai.steamstatic.com/"    
+      "https://cdn.akamai.steamstatic.com/",
+      "http://cdn.akamai.steamstatic.com/"
   ]
 }

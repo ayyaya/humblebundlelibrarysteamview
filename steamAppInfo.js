@@ -55,7 +55,7 @@ fetchSteamAppIDs().then(async (steamAppIDs) => {
 
 
 async function fetchSteamAppIDs() {
-  const response = await fetch("http://api.steampowered.com/ISteamApps/GetAppList/v0002/?key=STEAMKEY&format=json")
+  const response = await fetch("https://api.steampowered.com/ISteamApps/GetAppList/v0002/?key=STEAMKEY&format=json")
   return response.json()
 }
 
